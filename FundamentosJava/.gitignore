@@ -1,0 +1,23 @@
+# Arquivos compilados do Java
+*.class
+*.jar
+
+# Arquivos específicos do Eclipse
+.project
+.classpath
+.settings/
+bin/
+.metadata/
+remoteTargets/
+*.launch
+
+# Arquivos do sistema
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Arquivos temporários
+*.tmp
+*.temp
