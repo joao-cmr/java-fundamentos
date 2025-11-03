@@ -1,23 +1,32 @@
-# Arquivos compilados do Java
-*.class
-*.jar
+# IntelliJ IDEA
+.idea/
+*.iml
+*.iws
+*.ipr
 
-# Arquivos específicos do Eclipse
-.project
-.classpath
+# Compiled class files
+*.class
+out/
+production/
+
+# Eclipse (se tiver algum residual)
 .settings/
 bin/
-.metadata/
-remoteTargets/
-*.launch
-
-# Arquivos do sistema
-.DS_Store
-Thumbs.db
+*.project
+*.classpath
 
 # Logs
 *.log
 
-# Arquivos temporários
-*.tmp
-*.temp
+# Package Files #
+*.jar
+*.war
+*.nar
+*.ear
+*.zip
+*.tar.gz
+*.rar
+
+# OS generated files
+.DS_Store
+Thumbs.db
