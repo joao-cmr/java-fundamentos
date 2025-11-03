@@ -3,22 +3,23 @@
 *.iml
 *.iws
 *.ipr
-
-# Compiled class files
-*.class
 out/
 production/
 
 # Eclipse (se tiver algum residual)
+.metadata/
 .settings/
 bin/
 *.project
 *.classpath
 
+# Compiled class files
+*.class
+
 # Logs
 *.log
 
-# Package Files #
+# Package Files
 *.jar
 *.war
 *.nar
